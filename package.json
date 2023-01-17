@@ -18,7 +18,7 @@
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "rollup --config build/rollup.config.js",
+    "build": "rollup --config build/rollup.config.mjs",
     "test": "vue-cli-service test:unit",
     "test:watch": "vue-cli-service test:unit --watch",
     "lint": "vue-cli-service lint",

@@ -25,7 +25,7 @@ const config = [
       sourcemap: true,
       dir: 'dist',
       entryFileNames: 'vue-tailwind.js',
-      format: 'umd',
+      format: 'commonjs',
       name: 'VueTailwind',
       exports: 'named',
       globals,
@@ -159,7 +159,7 @@ const helpers = [
       dir: 'dist',
     },
     plugins: [
-      multiInput(),
+      multiInput.default(),
       typescript(),
     ],
   },
